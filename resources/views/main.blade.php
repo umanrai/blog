@@ -2,15 +2,16 @@
 <html lang="en">
     <head>
         @include('partials._head')
-        <title>Laravel Blog @yield('title')</title>
     </head>
 
     <body>
         @include('partials._nav')
-        <div class="container">
+        <div class="container" >
+            @include('partials._messages')
             @yield('content')
             @include('partials._footer')
         </div> <!-- End of .container -->
             @include('partials._javascript')
+            @yield('scripts')
     </body>
 </html>

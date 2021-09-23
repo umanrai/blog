@@ -1,14 +1,12 @@
 @extends('main')
 @section('title', '| Homepage')
 @section('content')
-    <div class="row" style="background-color: gray; ">
+    <div class="row card bg-light margin">
         <div class="col-md-12">
-            <div class="jumbotron">
-                <h1>Welcome to My Blog!</h1>
+            <h1>Welcome to My Blog!</h1>
                 <hr class="my-4">
                 <p class="lead">Thank you so much for visiting. This is my test website built with Laravel. Please read my popular post!</p>
                 <p><a class="btn btn-primary btn-lg" href="#" role="button">Popular Post</a></p>
-            </div>
         </div>
     </div> <!-- End of header .row -->
 
@@ -49,7 +47,7 @@
             </div>
             <hr>
         </div>
-            <div class="col-md-3 col-md-offset-1">
+            <div class="col-md-3 offset-md-1">
                 <h2>Sidebar</h2>
             </div>
     </div>
